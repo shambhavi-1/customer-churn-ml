@@ -1,0 +1,6 @@
+customer_id,tenure,monthly_charges,support_calls,contract_type,internet_service,payment_method,number_of_logins,usage_hours
+CUST-A,2,1100,9,Month-to-Month,Fiber Optic,Electronic Check,2,8
+CUST-B,60,300,0,Two Year,DSL,Bank Transfer,45,170
+CUST-C,15,800,6,Month-to-Month,Fiber Optic,Mailed Check,5,30
+CUST-D,40,450,1,One Year,DSL,Credit Card,30,120
+CUST-E,5,950,8,Month-to-Month,Fiber Optic,Electronic Check,1,5

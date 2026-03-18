@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Models (large files)
+models/optuna_study.db
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db

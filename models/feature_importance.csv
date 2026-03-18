@@ -1,0 +1,19 @@
+feature,importance
+tenure,1.0799772301700794
+contract_type_Two Year,0.9499089590070099
+support_calls,0.7312235877064859
+monthly_charges,0.6962414437168049
+contract_type_One Year,0.6302119404871631
+engagement_score,0.20429031688164112
+usage_hours,0.16888306559896504
+number_of_logins,0.11916263763001146
+charge_ratio,0.08746563133862459
+payment_method_Electronic Check,0.05523610470647142
+tenure_group,0.05335909751917869
+payment_method_Credit Card,0.050693396013051464
+support_interaction_ratio,0.037289025979497015
+customer_lifetime_value,0.020083458753914978
+total_charges,0.01657486666774029
+internet_service_No,0.009135163523054558
+payment_method_Mailed Check,0.0068011057326729735
+internet_service_Fiber Optic,0.0032441853700550223

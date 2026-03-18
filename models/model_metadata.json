@@ -1,0 +1,104 @@
+{
+  "trained_at": "2026-03-17T13:02:24.567133+00:00",
+  "random_state": 42,
+  "cv_folds": 5,
+  "best_model": {
+    "run_id": "logistic_regression_smote",
+    "model_name": "logistic_regression",
+    "smote": true,
+    "cv_roc_auc": 0.8457,
+    "cv_roc_auc_std": 0.0143,
+    "test_roc_auc": 0.8751,
+    "test_precision": 0.6745,
+    "test_recall": 0.8159,
+    "test_f1": 0.7385
+  },
+  "feature_names": [
+    "tenure",
+    "monthly_charges",
+    "total_charges",
+    "support_calls",
+    "number_of_logins",
+    "usage_hours",
+    "customer_lifetime_value",
+    "engagement_score",
+    "support_interaction_ratio",
+    "charge_ratio",
+    "tenure_group",
+    "contract_type_One Year",
+    "contract_type_Two Year",
+    "internet_service_Fiber Optic",
+    "internet_service_No",
+    "payment_method_Credit Card",
+    "payment_method_Electronic Check",
+    "payment_method_Mailed Check"
+  ],
+  "all_runs": [
+    {
+      "run_id": "logistic_regression_no_smote",
+      "model_name": "logistic_regression",
+      "smote": false,
+      "cv_roc_auc": 0.845,
+      "cv_roc_auc_std": 0.0132,
+      "test_roc_auc": 0.8749,
+      "test_precision": 0.6752,
+      "test_recall": 0.8187,
+      "test_f1": 0.7401
+    },
+    {
+      "run_id": "logistic_regression_smote",
+      "model_name": "logistic_regression",
+      "smote": true,
+      "cv_roc_auc": 0.8457,
+      "cv_roc_auc_std": 0.0143,
+      "test_roc_auc": 0.8751,
+      "test_precision": 0.6745,
+      "test_recall": 0.8159,
+      "test_f1": 0.7385
+    },
+    {
+      "run_id": "random_forest_no_smote",
+      "model_name": "random_forest",
+      "smote": false,
+      "cv_roc_auc": 0.8271,
+      "cv_roc_auc_std": 0.0174,
+      "test_roc_auc": 0.8574,
+      "test_precision": 0.6934,
+      "test_recall": 0.711,
+      "test_f1": 0.7021
+    },
+    {
+      "run_id": "random_forest_smote",
+      "model_name": "random_forest",
+      "smote": true,
+      "cv_roc_auc": 0.8326,
+      "cv_roc_auc_std": 0.0144,
+      "test_roc_auc": 0.8617,
+      "test_precision": 0.7168,
+      "test_recall": 0.7025,
+      "test_f1": 0.7096
+    },
+    {
+      "run_id": "xgboost_no_smote",
+      "model_name": "xgboost",
+      "smote": false,
+      "cv_roc_auc": 0.8235,
+      "cv_roc_auc_std": 0.0177,
+      "test_roc_auc": 0.8632,
+      "test_precision": 0.7436,
+      "test_recall": 0.6572,
+      "test_f1": 0.6977
+    },
+    {
+      "run_id": "xgboost_smote",
+      "model_name": "xgboost",
+      "smote": true,
+      "cv_roc_auc": 0.8237,
+      "cv_roc_auc_std": 0.018,
+      "test_roc_auc": 0.8626,
+      "test_precision": 0.7165,
+      "test_recall": 0.6657,
+      "test_f1": 0.6902
+    }
+  ]
+}
