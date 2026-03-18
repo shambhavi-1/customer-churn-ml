@@ -1,5 +1,8 @@
 # Customer Churn Prediction System
 
+<img width="1920" height="876" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/a3e627dc-3ccc-4a99-9161-d8accd246cb9" />
+
+
 A production-grade ML system for predicting customer churn in subscription businesses.
 Includes a full training pipeline, REST API, and interactive Streamlit dashboard.
 
